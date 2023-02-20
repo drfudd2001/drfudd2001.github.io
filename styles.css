@@ -24,17 +24,23 @@ table-layout: fixed;
 
 }
 
+#island {
+border-style: dashed;
+border-width: 5px;
+align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+table-layout: fixed;
+background-color: rgba(0, 255, 255, 0.26);
+}
+
 h1 { 
 color: deepskyblue;
 border-bottom: 5px;
 border-style: ridge;
 }
 
-table {
-border-style: dashed;
-border-width: 10px;
-align-items: center;
-}
 
 tr {
 border-style: dashed;
